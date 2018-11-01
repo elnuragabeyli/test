@@ -1,0 +1,42 @@
+/* div{
+    height: 300px;
+    border: 1px solid black;
+    background-image: url(images/image.jpeg );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+} */
+
+div{
+font-style: italic;   
+}
+  
+a{
+    color: teal;
+    text-decoration: uppercase;
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 655;
+}
+ 
+
+h1{
+border: 1px solid green
+
+}
+
+
+h1, p{
+    color: red;
+}
+
+
+span{
+background-color: yellow;
+
+}
+
