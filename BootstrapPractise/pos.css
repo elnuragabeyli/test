@@ -1,0 +1,114 @@
+.relative{
+    height: 100px;
+    width: 100px;
+    color: red;
+    border: 3px solid blue;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.item-2{
+    /* top: 10px;  */
+    background-color: orange;
+    width:  200px;
+    height:  200px;
+    /* left: 20px */
+    position: fixed; 
+    z-index: -2;
+}
+
+.item-3 .inner-item3{
+    width: 20px;
+    height: 20px;
+    background-color: turquoise;   
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.inner-item3,
+.inner-item4,
+.inner-item5,
+.inner-item6 {
+    transition: all 0.2s linear;
+}
+.item-3:hover .inner-item3{
+   background-color: red;
+   
+}
+.item-3:hover .inner-item4{
+    background-color: orange;
+ }
+ .item-3:hover .inner-item5{
+    background-color: yellow;
+ }
+ .item-3:hover .inner-item6{
+    background-color: black;
+ }
+
+.item-3 .inner-item4{
+    width: 20px;
+    height: 20px;
+    background-color: turquoise;   
+    position: absolute;
+    top: 0; 
+    right: 0;
+}
+ 
+.item-3 .inner-item5{
+    width: 20px;
+    height: 20px;
+    background-color: turquoise;   
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+}
+.item-3 .inner-item6{
+    width: 20px;
+    height: 20px;
+    background-color: turquoise;   
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+}
+
+
+.item-3{
+    /* z-index: 8;z indexi cox olan element uste dusur */
+  background-color:  yellowgreen;
+  position: relative;
+  /* top: 50%;
+  left: 50%; 
+  margin-left: -50px;
+  margin-top: -50px;
+  position: absolute; */
+
+}
+
+
+.overlay{
+    width: 200px; 
+    background-color: #235784;
+    color: white;
+    padding:20px;   
+    position: relative;
+    user-select: none;
+}
+
+.overlay:hover::before{
+    opacity: 0;
+    visibility: hidden;
+} 
+
+.overlay::before{
+    content: '';
+    display: block;
+    background-color:#F7AA00; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9; 
+}
+

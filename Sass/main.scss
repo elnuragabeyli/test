@@ -1,0 +1,32 @@
+@import './variables';
+
+@mixin btnBase($color: red,$bg-color:blue){
+    color: $color;
+    background-color: $bg-color;
+    padding: 5px;
+    margin: 0;
+    &.on{
+        display: block;
+    }
+    @content;
+}
+ 
+$color: red;
+
+body{
+    background-color: $color;
+}
+
+.body{
+    color: blue;
+    &.bg-red{
+        background-color: red;
+    }
+}
+ 
+.btn{
+    @include btnBase(red,blue){
+        box-shadow: 0 0 0 red;
+    }
+    background-color: red;
+}

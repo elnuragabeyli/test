@@ -1,0 +1,64 @@
+/* .check-box{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2.5px solid blue;
+    display: inline-block;
+    border-radius: 5px;  
+}
+ 
+.userselect{
+    user-select: none;  
+}
+
+input{
+    display: none;
+    user-select: none; 
+}
+
+
+input:checked ~ label .check-box{
+    background-color: blue;
+    content: "✓";
+} 
+  */
+/* ---------------------------------------------------------------------------- */
+
+ /* div{
+      border: 5px solid black;
+}
+
+div:hover{
+    border-color: blueviolet;
+}
+div:hover a{
+    color: yellow;
+}
+
+a:hover{
+    text-decoration: none;
+
+}
+
+div a{
+    text-decoration: none;
+} */
+
+
+
+/* ------------------------------------------------------------------- */
+
+
+input{
+    text-decoration: none;
+    
+} 
+
+.my-check{
+    border: 2px solid blue;
+}
+ 
+.my-check input:checked ~ p{
+    color: red;
+
+}
