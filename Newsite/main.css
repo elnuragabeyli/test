@@ -1,0 +1,75 @@
+ /*Header*/
+.main-header{
+    background-color: #343a40;
+    color:#fff;
+    user-select: none;
+}
+
+
+.header-brand:hover{
+    text-decoration: none;
+}
+
+
+.main-header .header-brand{
+    color: white; 
+}
+
+
+.main-header .header-hamburger{
+    color: #9a9da0;
+    background-color: transparent; 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 10px 0;  
+    border-radius: 2px;
+    padding: 0 12px;
+    cursor: pointer; 
+}
+
+
+/* Greeting */
+
+ 
+.greeting-block{
+    padding: 100px 0;
+    text-align: center; 
+}
+
+.greeting-block .greeting-wrapper{
+    width:36%;
+    margin: 0 auto;
+}
+
+
+.greeting-block h1{
+     color: #212529; 
+     font-weight: 100;
+}
+
+
+.greeting-block p{
+    color: #9a9da0;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+/* main{
+    background: #212529;
+} */
+
+
+/*cards*/
+
+.cards{
+    background-color: #f8f9fa; 
+}
+
+.cards .col-4{
+    background-color: red;
+    
+}
+
+
+.card-description p{ 
+
+}
