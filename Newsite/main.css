@@ -56,20 +56,26 @@
 /* main{
     background: #212529;
 } */
-
-
+ 
 /*cards*/
 
 .cards{
     background-color: #f8f9fa; 
+   
 }
 
 .cards .col-4{
-    background-color: red;
+    background-color: white;
     
 }
 
+.cards .container .col4 img{ 
+    height: 100px;
+}
 
-.card-description p{ 
 
+.col-4 { 
+    border: 1px solid grey;
+    padding: 2px;
+    border-radius: 7px;
 }
